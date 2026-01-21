@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {%block title%} My Feedback Site {%endblock%}
+    </title>
+    <style>
+
+        body {font-family: Arial, Helvetica, sans-serif; 
+            background-color: black; 
+            height: 100vh; 
+            color: white; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            flex-direction: column; 
+            padding: 20px;}
+
+        header,footer {background: #333; 
+            padding: 20px; 
+            text-align: center;}
+
+        nav a { margin: 0 10px; 
+                color: white; 
+                text-decoration: none;}
+
+        main {background: rgb(225, 123, 123); 
+            padding: 20px; 
+            margin-top: 20px; 
+            border-bottom: 5px;}
+
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Feedback Page</h1>
+        <nav>
+            <a href="/feedback.html">Feedback</a>
+        </nav>
+    </header>
+
+
+    <main>
+
+        {%block content%}  {%endblock%}
+
+    </main>
+
+    <footer>
+        <p>Just practicing Stuff...</p>
+    </footer>
+
+</body>
+</html>
