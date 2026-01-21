@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    
+
+    <div>
+        <h1>Welcome To HomePage</h1> <br><br>
+        <p>This HomePage is Design by Flask framework</p> <br><br><br>
+        <a href="{{ url_for('ShowForm') }}">
+            <button>Login Here</button>
+        </a>
+
+    </div>
+
+</body>
+</html>

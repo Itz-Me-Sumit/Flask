@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(19, 19, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div{
+    background-color: rgb(104, 104, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 700px;
+    border:3px solid rgb(61, 61, 166);
+    border-radius: 10px;
+}
